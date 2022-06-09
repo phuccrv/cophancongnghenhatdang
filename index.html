@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/css.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="/photo/logo1.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>nhatdangcompany.com</title>
+</head>
+
+<body class="main" ng-app="myapp"> 
+    <nav ng-include="'layout/nav.html'">
+
+    </nav>
+    <div ng-view>
+
+    </div>
+
+    <footer ng-include="'layout/footer.html'">
+
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!--angular-->
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-route.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/layout.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+<!-- slide -->
+<div class="row-md slide">
+    <div>
+        <img id="slideshow" src="photo/banner_cks.png" width="100%" height="auto">
+    </div>
+    <script>
+        var arr = [
+            'photo/banner_cks.png',
+            'photo/banner_hddt.png',
+            'photo/banner_bhxh.png',
+
+        ];
+        var vt = 0;
+
+        function slideshows() {
+            document.getElementById('slideshow').src = arr[vt];
+            vt++;
+            if (vt == arr.length) {
+                vt = 0;
+            }
+            setTimeout("slideshows()", 2000);
+        }
+        slideshows();
+    </script>
+
+</div>
+<div class="home">
+    <div class="container ">
+        <h1>Lĩnh vực hoạt động</h1><br>
+        <div class="row-md col-md-12 row-sm col-sm-12 dich_vu">
+            <a class="col-md-3 col-sm-6 dv_con" href="#cks">
+                <img src="/photo/icon_cks.jpg" width="50%"  /><br>
+                <h3>chữ kí số</h3>
+            </a>
+            <a class="col-md-3 col-sm-6 dv_con" href="#hddt">
+                <img src="/photo/icon_hddt.jpg" width="50%"  /><br>
+                <h3>hóa đơn điện tử</h3>
+            </a>
+            <a class="col-md-3 col-sm-6 dv_con" href="#bhxh">
+                <img src="/photo/icon_bhxh.jpg" width="50%"  /><br>
+                <h3>bảo hiểm xã hội</h3>
+            </a>
+            <a class="col-md-3 col-sm-6 dv_con" href="#kkt">
+                <img src="/photo/icon_kkt.png" width="50%"  /><br>
+                <h3>kê khai thuế</h3>
+            </a>
+            <a class="col-md-3 col-sm-6 dv_con" href="#tlcty">
+                <img src="/photo/icon_tlcty.png" width="50%"  /><br>
+                <h3>thành lập công ty</h3>
+            </a>
+            <a class="col-md-3 col-sm-6 dv_con" href="#bctc">
+                <img src="/photo/icon_bctc.jpg" width="50%"  /><br>
+                <h3>báo cáo tài chính</h3>
+            </a>
+            <a class="col-md-3 col-sm-6 dv_con" href="#hsvay">
+                <img src="/photo/icon_hsvay.png" width="50%"  /><br>
+                <h3>hồ sơ vay ngân hàng</h3>
+            </a>
+            <a class="col-md-3 col-sm-6 dv_con" href="#hsthau">
+                <img src="/photo/icon_hsthau.png" width="50%"  /><br>
+                <h3>hồ sơ thầu</h3>
+            </a>
+        </div>
+        <h1>Tài nguyên cần thiết</h1><br>
+        <div class="row-md col-md-12">
+            <table class="table table-warning" style="width:100%; font-size: large;">
+                <thead style="color: white; background-color: chocolate;">
+                    <tr>
+                        <th>Tên phần mềm</th>
+                        <th>Tải về</th>
+                        <th>Ngày đăng</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTKK 4.5.7 ngày 24/05/2021
+                        </td>
+                        <td><a href="https://easyinvoice.vn/wp-content/uploads/2021/05/HTKK_v4.5.7.zip"
+                                target="_blank"><i class="glyphicon glyphicon-save"></i></a>
+                        </td>
+                        <td>24/05/2021</td>
+                    </tr>
+                    <tr>
+                        <td>Phần mềm ký số
+                        </td>
+                        <td><a href="https://easyinvoice.vn/wp-content/uploads/2020/09/easyinvoice_kyso.exe_.zip"
+                                target="_blank"><i class="glyphicon glyphicon-save"></i></a></td>
+                        <td>01/10/2019</td>
+                    </tr>
+                    <tr>
+                        <td>Tiện ích ký số
+                        </td>
+                        <td><a href="https://chrome.google.com/webstore/detail/softdreams-c%C3%B4ng-c%E1%BB%A5-k%C3%BD-%C4%91i%E1%BB%87/bkfagmnjmfjalbbaiphoiiafghlknpog?hl=en-US"
+                                target="_blank"><i class="glyphicon glyphicon-save"></i></a></td>
+                        <td>19/09/2019</td>
+                    </tr>
+                    <tr>
+                        <td>Phần mềm in hóa đơn
+                        </td>
+                        <td><a href="https://easyinvoice.vn/wp-content/uploads/2021/05/EasyPrintTool.zip"
+                                target="_blank"><i class="glyphicon glyphicon-save"></i></a></td>
+                        <td>22/05/2021</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

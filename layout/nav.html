@@ -1,0 +1,37 @@
+<div class="topnav" id="myTopnav">
+    <a href="/" style=" width: 100px;padding: 0;margin-left: 20px; margin-right: 20px;">
+        <img src="/photo/logo.JPG" width="100%" />
+    </a>
+    <a href="#trangchu">trang chủ</a>
+    <a href="#cks">chữ ký số</a>
+    <a href="#hddt">hóa đơn điện tử</a>
+    <a href="#bhxh">pm_bhxh</a>
+
+    <div class="dropdown">
+        <button class="dropbtn">dịch vụ kế toán
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="#dvketoan">phần mềm kế toán</a>
+            <a href="#kkt">kê khai thuế</a>
+            <a href="#tlcty">thành lập công ty</a>
+            <a href="#bctc">báo cáo tài chính</a>
+            <a href="#hsvay">hồ sơ vay ngân hàng</a>
+            <a href="#hsthau">hồ sơ thầu</a>
+        </div>
+    </div>
+    <a href="#tintuc">tin tức</a>
+    <a href="#about">về chúng tôi</a>
+
+    <a href="javascript:void(0);" style="font-size:20px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
